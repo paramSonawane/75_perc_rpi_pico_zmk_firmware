@@ -13,5 +13,5 @@
 #
 ---
 include:
-  - board: adafruit_qt_py_rp2040
-    shield: two_percent_milk
+  - board: rpi_pico
+    shield: ciy_tester_68
