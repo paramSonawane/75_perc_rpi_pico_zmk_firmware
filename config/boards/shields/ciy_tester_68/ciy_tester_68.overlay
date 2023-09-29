@@ -11,26 +11,26 @@
         label = "default_kscan";
         diode-direction = "col2row";
 
-        row-gpios = <&rpi_pico 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&rpi_pico 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&rpi_pico 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&rpi_pico 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-                    <&rpi_pico 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        col-gpios = <&rpi_pico 1 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 2 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 3 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 4 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 5 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 6 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 7 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 8 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 9 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 10 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 11 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 12 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 13 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 14 GPIO_ACTIVE_HIGH>,
-                    <&rpi_pico 15 GPIO_ACTIVE_HIGH>;
+        row-gpios = <&gpio 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio 24 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio 25 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+                    <&gpio 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+        col-gpios = <&gpio 2 GPIO_ACTIVE_HIGH>,
+                    <&gpio 4 GPIO_ACTIVE_HIGH>,
+                    <&gpio 5 GPIO_ACTIVE_HIGH>,
+                    <&gpio 6 GPIO_ACTIVE_HIGH>,
+                    <&gpio 7 GPIO_ACTIVE_HIGH>,
+                    <&gpio 9 GPIO_ACTIVE_HIGH>,
+                    <&gpio 10 GPIO_ACTIVE_HIGH>,
+                    <&gpio 11 GPIO_ACTIVE_HIGH>,
+                    <&gpio 12 GPIO_ACTIVE_HIGH>,
+                    <&gpio 14 GPIO_ACTIVE_HIGH>,
+                    <&gpio 15 GPIO_ACTIVE_HIGH>,
+                    <&gpio 16 GPIO_ACTIVE_HIGH>,
+                    <&gpio 17 GPIO_ACTIVE_HIGH>,
+                    <&gpio 19 GPIO_ACTIVE_HIGH>,
+                    <&gpio 20 GPIO_ACTIVE_HIGH>;
     };
 
     default_transform: matrix_transform {
