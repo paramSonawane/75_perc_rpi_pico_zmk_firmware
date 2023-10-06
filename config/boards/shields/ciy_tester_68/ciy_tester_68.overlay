@@ -50,7 +50,7 @@
         col-gpios = <&xiao_d 5 GPIO_ACTIVE_HIGH>,
                     <&xiao_d 6 GPIO_ACTIVE_HIGH>,
                     <&gpio0 10 GPIO_ACTIVE_HIGH>,
-                    <&gpio0 11 GPIO_ACTIVE_HIGH>,
+                    <&gpio0 9 GPIO_ACTIVE_HIGH>,
                     <&xiao_d 7 GPIO_ACTIVE_HIGH>,
                     <&shifter 0 GPIO_ACTIVE_HIGH>,
                     <&shifter 1 GPIO_ACTIVE_HIGH>,
