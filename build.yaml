@@ -14,4 +14,4 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: ciy_tester_68
+    shield: ciy_tester_68 rgbled_adapter
