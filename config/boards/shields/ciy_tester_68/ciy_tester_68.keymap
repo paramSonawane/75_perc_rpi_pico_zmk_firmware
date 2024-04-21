@@ -2,6 +2,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
+
+#define U_TAPPING_TERM 200
+
 #include "../../../miryoku/miryoku_behaviours.dtsi"
 #include "../../../miryoku/miryoku_behaviours.h"
 
