@@ -13,6 +13,14 @@
             layers = <0>;
         };
 
+        to_base_layer {
+            timeout-ms = <TIMEOUT_MS>;
+            key-positions = <62 67>;
+            bindings = <&to 0>;   
+            layers = <2>;
+        };
+
+
        combo_minus {
             require-prior-idle-ms = <WAIT_MS>;
             timeout-ms = <TIMEOUT_MS>;
